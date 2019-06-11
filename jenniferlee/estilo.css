@@ -1,0 +1,313 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background: url(../img/science.png);
+  font-family: 'Kaushan Script', cursive;
+  
+}
+main{
+	width: 960px;
+	height: 645px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #87bfe2;
+  box-shadow: 1px 3px 18px 5px rgba(0,0,0,0.75);
+	
+}
+header{
+    width: 860px;
+    height: 80px;
+    padding-top: 15px;
+    padding-left: 100px;
+    background-color: #d999a9;    
+}
+h1{
+	font-family: 'Marck Script', cursive;
+	margin-left: 220px;
+	font-size: 50px;
+}
+
+h2{
+  text-align: center;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+nav{
+   width: 250px;
+   height: 425px;
+   float: left;
+   padding-top: 50px;
+}
+section{
+	width: 710px;
+	height: 510px;
+	float: right;
+}
+#primero{
+	width: 355px;
+	height: 495px;
+	float: left;
+}
+#segundo{
+	width: 355px;
+	height: 495px;
+	float: right;
+}
+
+#tercero{
+	width: 355px;
+	height: 495px;
+	text-align: center;
+}
+
+#cuarto{
+	text-align: center;
+	padding-right: 20px;
+}
+.img-bio img:hover{
+    transform: scale(1.5,1.5) translate(-10px,-30px);
+    border-radius: 25px;
+}
+
+footer{
+	width: 960px;
+	height: 40px;
+	background-color: #d999a9;
+	clear: both;
+}
+ul.botonera_vertical{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	transition: all 0.3s ease
+}
+
+ul.botonera_vertical li a{
+	width: 170px;
+	height: 50px;
+	line-height: 50px;
+	background-color: #da8a9e;
+	display: block;
+	text-decoration: none;
+	font-weight: bold;
+	margin-bottom: 5px;
+	text-align: right;
+	color: black;
+	padding-right: 10px;
+	margin-top: 20px;
+;
+}
+ul.botonera_vertical li a:hover{
+	color:  #420010;
+    background-color:  #87bfe2;
+}
+.icon{
+	float: right;
+	line-height: 39px;
+	padding-top: 5px;
+	padding-right: 10px;
+}
+.left_padding{
+	text-align: left;
+	text-decoration: none;
+	color: #000000;
+	float: left;
+	padding-left: 10px;
+	line-height: 40px;
+	font-size: 12px;
+}
+
+#jeniferhome{
+	padding-top: 75px;
+    padding-left: 10px;
+    float: left;
+}
+#contenedor{
+	width: 250px;
+	height: 200px;
+	padding-top: 110px;
+	padding-left: 15px;
+	float: left;
+}
+
+#filmografia1{
+  float: left;
+}
+#filmografia2{
+  float: right;
+}
+h3{
+	font-size: 16px;
+	font-family: 'Courgette', cursive;
+	color: #420010;
+}
+
+p{
+	font-family: Arial;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+@import url(https://fonts.googleapis.com/css?family=Teko:700);
+.snip1543 {
+  
+  color: #ffffff;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+  margin: 5px;
+  max-width: 280px;
+  min-width: 230px;
+  overflow: hidden;
+  position: relative;
+  text-align: left;
+  width: 90%;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+.snip1543 *,
+.snip1543 *:before,
+.snip1543 *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.45s ease;
+  transition: all 0.45s ease;
+}
+
+.snip1543 img {
+  backface-visibility: hidden;
+  max-width: 100%;
+  vertical-align: top;
+}
+
+.snip1543:before,
+.snip1543:after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: '';
+  background-color: #639fd5;
+  opacity: 0.5;
+  -webkit-transition: all 0.45s ease;
+  transition: all 0.45s ease;
+}
+
+.snip1543:before {
+  -webkit-transform: skew(30deg) translateX(-80%);
+  transform: skew(30deg) translateX(-80%);
+}
+
+.snip1543:after {
+  -webkit-transform: skew(-30deg) translateX(-70%);
+  transform: skew(-30deg) translateX(-70%);
+}
+
+.snip1543 figcaption {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 1;
+  bottom: 0;
+  padding: 25px 40% 25px 20px;
+}
+
+.snip1543 figcaption:before,
+.snip1543 figcaption:after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #639fd5;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+  content: '';
+  opacity: 0.5;
+  z-index: -1;
+}
+
+.snip1543 figcaption:before {
+  -webkit-transform: skew(30deg) translateX(-100%);
+  transform: skew(30deg) translateX(-100%);
+}
+
+.snip1543 figcaption:after {
+  -webkit-transform: skew(-30deg) translateX(-90%);
+  transform: skew(-30deg) translateX(-90%);
+}
+
+.snip1543 h3,
+.snip1543 p {
+  margin: 0;
+  opacity: 0;
+  letter-spacing: 1px;
+}
+
+.snip1543 h3 {
+  font-family: 'Teko', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+
+.snip1543 p {
+  font-size: 0.9em;
+}
+
+.snip1543 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.snip1543:hover h3,
+.snip1543.hover h3,
+.snip1543:hover p,
+.snip1543.hover p {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  opacity: 0.9;
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+
+.snip1543:hover:before,
+.snip1543.hover:before {
+  -webkit-transform: skew(30deg) translateX(-20%);
+  transform: skew(30deg) translateX(-20%);
+  -webkit-transition-delay: 0.05s;
+  transition-delay: 0.05s;
+}
+
+.snip1543:hover:after,
+.snip1543.hover:after {
+  -webkit-transform: skew(-30deg) translateX(-10%);
+  transform: skew(-30deg) translateX(-10%);
+}
+
+.snip1543:hover figcaption:before,
+.snip1543.hover figcaption:before {
+  -webkit-transform: skew(30deg) translateX(-40%);
+  transform: skew(30deg) translateX(-40%);
+  -webkit-transition-delay: 0.15s;
+  transition-delay: 0.15s;
+}
+
+.snip1543:hover figcaption:after,
+.snip1543.hover figcaption:after {
+  -webkit-transform: skew(-30deg) translateX(-30%);
+  transform: skew(-30deg) translateX(-30%);
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+}
